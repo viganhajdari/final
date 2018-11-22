@@ -17,6 +17,9 @@
 /storage/*
 !/storage/.keep
 
+# i dont want to show my secrets
+/config/secrets.yml
+
 /node_modules
 /yarn-error.log
 
@@ -25,3 +28,4 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+.idea/workspace.xml
